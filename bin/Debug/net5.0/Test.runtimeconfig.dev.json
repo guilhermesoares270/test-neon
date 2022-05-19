@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\gleite\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\gleite\\.nuget\\packages"
+    ]
+  }
+}
