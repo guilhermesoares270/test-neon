@@ -28,15 +28,15 @@ namespace Test
 
                 var val = valorSaque - moeda;
 
-                var iii = 0;
+                var nextCedulaIndex = 0;
                 if (index + 1 <= cedula.Length - 1)
                 {
-                    iii = index + 1;
+                    nextCedulaIndex = index + 1;
                 }
 
-                var ttt = val - cedula[iii];
+                var valueToNextInteration = val - cedula[nextCedulaIndex];
 
-                while (valorSaque >= moeda && ttt != 1)
+                while (valorSaque >= moeda && valueToNextInteration != 1)
                 {
                     if (temp >= 0)
                     {
